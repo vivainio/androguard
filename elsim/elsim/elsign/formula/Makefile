@@ -2,6 +2,7 @@ SRC	= 	formula.cc
 
 LDFLAGS =	-lmuparser
 CFLAGS  += 	-Wall -fPIC -fpermissive
+CFLAGS += -I/usr/include/muParser
 mkdir	=	mkdir -p
 CD      =       cd
 RM      =       rm -f

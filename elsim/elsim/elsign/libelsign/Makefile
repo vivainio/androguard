@@ -12,6 +12,7 @@ LDFLAGS =	-lm -lbz2 -lz -llzma -lsnappy -lmuparser
 endif
 
 CFLAGS  += 	-Wall -fPIC -I/usr/include/python2.7/ -I$(PATH_SIMILARITY) -I$(PATH_FORMULA)
+CFLAGS += -I/usr/include/muParser
 
 mkdir	=	mkdir -p
 CD      =       cd
